@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ************************** */
+/* MOBILE FIRST STYLING GUIDE */
+/* ************************** */
+
+
+/* HEADER IMAGE */
+img .headerImage{
+
+}
+
+/* MAIN CONTENT */
+content .main{
+    
+}
+
+/* CARD ONE */
+.cardOne{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+
+}
+p .despription{
+
+}
+/* ......... */
+
+/* CARD TWO */
+.cardTwo{
+    
+}
+h2 .thirdTitle{
+    
+}
+
+ul .prepTime{
+    
+}
+
+li .listItem{
+    
+}
+/* ......... */
+
+/* CARD THREE */
+.cardThree{
+    
+}
+
+h2 .thirdTitle{
+    
+}
+
+ul .ingredients{
+    
+}
+
+li .ingredientItems{
+    
+}
+/* ......... */
+
+/* CARD FOUR */
+.cardFour{
+    
+}
+
+h2 .secondTitle{
+    
+}
+
+ol .instructions{
+    
+}
+
+li .instructionItem{
+    
+}
+/* ......... */
+
+/* CARD FIVE */
+.cardFive{
+    
+}
+
+p .nutritionDescription{
+    
+}
+
+table .nutritionTable{
+    
+}
+
+tr .row{
+    
+}
+/* ......... */
