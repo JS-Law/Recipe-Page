@@ -2,15 +2,45 @@
     box-sizing: border-box;
     margin: 0;
 }
+@font-face {
+    font-family: 'YoungSerif-Regular';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+@font-face {
+    font-family: 'Outfit-VariableFont_wght';
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
 
+
+:root{
+    --wenge-brown: #5F564D;
+    --brandy-red: #854632;
+    --white-coffee: #E3DDD7;
+    --dark-raspberry: #7A284E;
+    --dark-charcoal: #312E2C;
+    --snow: #FFF7FB;
+    --eggshell: #F3E5D7;
+    --default-font: 'YoungSerif-Regular';
+    --secondary-font: 'Outfit-VariableFont_wght'
+}
+
+body{
+
+}
 /* ************************** */
 /* MOBILE FIRST STYLING GUIDE */
 /* ************************** */
 
 
 /* HEADER IMAGE */
-img .headerImage{
+img{
+    /* max-width: 100px; */
+    width: 100%;
+    height: auto;
+}
 
+.headerImage{
+    
 }
 
 /* MAIN CONTENT */
@@ -26,7 +56,7 @@ content .main{
 .title{
 
 }
-p .despription{
+p .description{
 
 }
 /* ......... */
