@@ -103,18 +103,21 @@ li.listItem{
 
 ul.ingredients{
     font-family: var(--secondary-font);
+    padding-inline-start: 1.5rem;
 }
 
 li.ingredientItems{
     font-weight: 200;
     color: var(--wenge-brown);
     padding-block-end: .7rem;
+    padding-inline-start: 1rem;
+    list-style-type: unset;
 }
 /* ......... */
 
 /* CARD FOUR */
 .cardFour{
-    
+    padding-block-end: 1.5rem;
 }
 
 h2.secondTitle{
@@ -124,15 +127,30 @@ h2.secondTitle{
     font-weight: 100;
 }
 
+h2.fourthTitle{
+    font-family: var(--default-font);
+    padding-block-end: 1rem;
+    color: var(--brandy-red);
+    font-weight: 100;
+}
 ol.instructions{
     font-family: var(--secondary-font);
+    padding-inline-start: 1.5rem;
+    font-weight: 200;
+    color: var(--wenge-brown);
+
 }
 
-li .instructionItem{
-    
+li.instructionItem{
+    padding-block-end: .7rem;
+    padding-inline-start: 1rem;
+    list-style-type: unset;
+    list-style: var(--brandy-red);
 }
 /* ......... */
-
+hr{
+    margin-block-end: 1.5rem;
+}
 /* CARD FIVE */
 .cardFive{
     
@@ -140,13 +158,39 @@ li .instructionItem{
 
 p.nutritionDescription{
     font-family: var(--secondary-font);
+    font-weight: 200;
+    margin-bottom: 1rem;
 }
 
-table.nutritionTable{
+table{
     font-family: var(--secondary-font);
+    font-weight: 200;
 }
 
-tr .row{
+tr.row{
+    /* text-align: center; */
+}
+td{
+    /* border-bottom: solid 1px; */
+    width: 100%;
+
     
+}
+.border{
+    border-bottom: 1px solid var(--white-coffee);
+    margin-bottom: .7rem;
+    margin-top: .7rem;
+}
+.start{
+    padding: 0;
+    margin: 0;
+    padding-inline-start: 2rem;
+    color: var(--wenge-brown);
+}
+.end{
+    padding: 0;
+    margin: 0;
+    padding-inline-end: 5rem;
+    color: var(--brandy-red);
 }
 /* ......... */
