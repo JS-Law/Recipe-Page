@@ -25,7 +25,7 @@
 }
 
 body{
-
+    
 }
 /* ************************** */
 /* MOBILE FIRST STYLING GUIDE */
@@ -44,8 +44,8 @@ img{
 }
 
 /* MAIN CONTENT */
-content .main{
-    
+.main{
+    padding: 2em;    
 }
 
 /* CARD ONE */
@@ -54,45 +54,61 @@ content .main{
     flex-direction: column;
 }
 .title{
-
+    font-family: var(--default-font);
+    font-size: 36px;
+    color: var(--dark-charcoal);
+    font-weight: 100;
 }
-p .description{
-
+p.description{
+    font-family: var(--secondary-font);
+    padding-block-start: 1.5rem;
+    line-height: 1.5rem;
+    color: var(--wenge-brown);
+    padding-block-end: 1.5rem;
 }
 /* ......... */
 
 /* CARD TWO */
 .cardTwo{
-    
+    background-color: var(--snow);
+    padding: 1.5rem;
+    border-radius: .7rem;
+    margin-block-end: 1.5rem;
 }
-h2 .thirdTitle{
-    
+h2.thirdTitle{
+    font-family: var(--secondary-font);
+    padding-block-end: 1rem;
+    font-weight: 500;
+    color: var(--dark-raspberry);
+    font-size: 1.2rem;
 }
 
-ul .prepTime{
-    
+ul.prepTime{
+    font-family: var(--secondary-font);
+    color: var(--wenge-brown);
+
 }
 
-li .listItem{
-    
+li.listItem{
+    font-weight: 300;
+    padding-block-end: .7rem;
 }
 /* ......... */
 
 /* CARD THREE */
 .cardThree{
-    
+    margin-block-end: 1.5rem;
 }
 
-h2 .thirdTitle{
-    
+
+ul.ingredients{
+    font-family: var(--secondary-font);
 }
 
-ul .ingredients{
-    
-}
-
-li .ingredientItems{
-    
+li.ingredientItems{
+    font-weight: 200;
+    color: var(--wenge-brown);
+    padding-block-end: .7rem;
 }
 /* ......... */
 
@@ -101,12 +117,15 @@ li .ingredientItems{
     
 }
 
-h2 .secondTitle{
-    
+h2.secondTitle{
+    font-family: var(--default-font);
+    padding-block-end: 1rem;
+    color: var(--brandy-red);
+    font-weight: 100;
 }
 
-ol .instructions{
-    
+ol.instructions{
+    font-family: var(--secondary-font);
 }
 
 li .instructionItem{
@@ -119,12 +138,12 @@ li .instructionItem{
     
 }
 
-p .nutritionDescription{
-    
+p.nutritionDescription{
+    font-family: var(--secondary-font);
 }
 
-table .nutritionTable{
-    
+table.nutritionTable{
+    font-family: var(--secondary-font);
 }
 
 tr .row{
