@@ -26,8 +26,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/mobile-first-recipe-page-YUjHdpc6Ib)
+- Live Site URL: [Recipe Page](https://js-law.github.io/Recipe-Page/)
 
 ## My process
 I developed this with a mobile first mindset, which is a first for me. I took a different approach on this project and mainly used it as a chance to get back into CSS after a deep dive into basic JavaScript.
