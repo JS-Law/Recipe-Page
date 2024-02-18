@@ -25,7 +25,7 @@
 }
 
 body{
-    
+    margin: 0;
 }
 /* ************************** */
 /* MOBILE FIRST STYLING GUIDE */
@@ -33,19 +33,21 @@ body{
 
 
 /* HEADER IMAGE */
+
+.headerImage#mobile{
+    display: contents;
+}
+.headerImage#desktop{
+    display: none;
+}
+/* MAIN CONTENT */
+.content{
+    padding: 2em;    
+}
 img{
     /* max-width: 100px; */
     width: 100%;
     height: auto;
-}
-
-.headerImage{
-    
-}
-
-/* MAIN CONTENT */
-.main{
-    padding: 2em;    
 }
 
 /* CARD ONE */
@@ -152,10 +154,6 @@ hr{
     margin-block-end: 1.5rem;
 }
 /* CARD FIVE */
-.cardFive{
-    
-}
-
 p.nutritionDescription{
     font-family: var(--secondary-font);
     font-weight: 200;
@@ -167,11 +165,7 @@ table{
     font-weight: 200;
 }
 
-tr.row{
-    /* text-align: center; */
-}
 td{
-    /* border-bottom: solid 1px; */
     width: 100%;
 
     
@@ -194,3 +188,39 @@ td{
     color: var(--brandy-red);
 }
 /* ......... */
+
+.attribution{
+    font-family: var(--secondary-font);
+    font-weight: 100;
+    font-size: .9rem;
+    margin-block-start: 5rem;
+}
+
+
+/* DESKTOP QUERIES */
+@media (min-width: 924px) {
+    body{
+        max-width: 80%;
+        margin:10%;
+        padding: 10%;
+        background-color: var(--eggshell);
+    }
+    .main{
+        background-color: white;
+        border-radius: .7rem;
+    }
+    .headerImage#mobile{
+        display: none;
+        
+    }
+    .headerImage#desktop{
+        display: contents;
+        padding-block-end: 1.5rem;
+    }
+    img{
+        border-radius: .7rem;
+    }
+    .title{
+        margin-block-start: 1.5rem;
+    }
+}
